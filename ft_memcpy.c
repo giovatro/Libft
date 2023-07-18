@@ -6,7 +6,7 @@
 /*   By: gtroiano <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/13 16:39:33 by gtroiano          #+#    #+#             */
-/*   Updated: 2023/07/13 17:22:49 by gtroiano         ###   ########.fr       */
+/*   Updated: 2023/07/18 18:42:54 by gtroiano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	ft_memcpy(void *dest, const void *src, size_t numbytes)
 	ptrdest = (char *)dest;
 	while (i < numbytes)
 	{
-		ptrdst[i] = ptrsrc[i];
+		ptrdest[i] = ptrsrc[i];
 		i++;
 	}
 	return (dest);
