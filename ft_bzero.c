@@ -6,8 +6,17 @@
 /*   By: gtroiano <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/19 13:31:50 by gtroiano          #+#    #+#             */
-/*   Updated: 2023/07/19 13:34:39 by gtroiano         ###   ########.fr       */
+/*   Updated: 2023/07/24 13:47:33 by gtroiano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
+void	ft_bzero(void *str, size_t n)
+{
+	while (n--)
+	{
+		*(unsigned char *)str = 0;
+		str++;
+	}
+}

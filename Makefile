@@ -6,13 +6,15 @@
 #    By: gtroiano <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/23 16:32:43 by gtroiano          #+#    #+#              #
-#    Updated: 2023/07/23 16:34:33 by gtroiano         ###   ########.fr        #
+#    Updated: 2023/07/24 16:01:02 by gtroiano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= libft.a
 
-files	= ft_isalnum \
+files	= ft_bzero \
+		  ft_calloc \
+		  ft_isalnum \
 		  ft_isalpha \
 		  ft_isascii \
 		  ft_isdigit \
