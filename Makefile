@@ -6,13 +6,14 @@
 #    By: gtroiano <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/23 16:32:43 by gtroiano          #+#    #+#              #
-#    Updated: 2023/07/24 17:26:31 by gtroiano         ###   ########.fr        #
+#    Updated: 2023/07/24 19:04:16 by gtroiano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= libft.a
 
-files	= ft_bzero \
+files	= ft_atoi \
+		  ft_bzero \
 		  ft_calloc \
 		  ft_isalnum \
 		  ft_isalpha \
@@ -20,6 +21,7 @@ files	= ft_bzero \
 		  ft_isdigit \
 		  ft_isprint \
 		  ft_memchr \
+		  ft_memcmp \
 		  ft_memcpy \
 		  ft_memmove \
 		  ft_memset \
