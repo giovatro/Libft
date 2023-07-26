@@ -6,7 +6,7 @@
 #    By: gtroiano <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/23 16:32:43 by gtroiano          #+#    #+#              #
-#    Updated: 2023/07/26 19:24:20 by gtroiano         ###   ########.fr        #
+#    Updated: 2023/07/26 21:22:33 by gtroiano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,9 +30,11 @@ files	= ft_atoi \
 		  ft_putnbr_fd \
 		  ft_putstr_fd \
 		  ft_strchr \
+		  ft_striteri \
 		  ft_strlcat \
 		  ft_strlcpy \
 		  ft_strlen \
+		  ft_strmapi \
 		  ft_strncmp \
 		  ft_strnstr \
 		  ft_strrchr \
