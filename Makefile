@@ -6,7 +6,7 @@
 #    By: gtroiano <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/23 16:32:43 by gtroiano          #+#    #+#              #
-#    Updated: 2023/07/27 17:30:37 by gtroiano         ###   ########.fr        #
+#    Updated: 2023/07/28 19:01:49 by gtroiano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ files	= ft_atoi \
 		  ft_isascii \
 		  ft_isdigit \
 		  ft_isprint \
+		  ft_itoa \
 		  ft_memchr \
 		  ft_memcmp \
 		  ft_memcpy \
