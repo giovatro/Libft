@@ -6,7 +6,7 @@
 #    By: gtroiano <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/23 16:32:43 by gtroiano          #+#    #+#              #
-#    Updated: 2023/07/28 19:01:49 by gtroiano         ###   ########.fr        #
+#    Updated: 2023/07/28 22:18:47 by gtroiano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,6 +40,7 @@ files	= ft_atoi \
 		  ft_strncmp \
 		  ft_strnstr \
 		  ft_strrchr \
+		  ft_strtrim \
 		  ft_substr \
 		  ft_toupper \
 		  ft_tolower \
